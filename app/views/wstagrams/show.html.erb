@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @wstagram.description %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= @wstagram.picture %>
+</p>
+
+<%= link_to 'Edit', edit_wstagram_path(@wstagram) %> |
+<%= link_to 'Back', wstagrams_path %>
